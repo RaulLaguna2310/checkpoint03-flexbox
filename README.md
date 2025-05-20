@@ -25,4 +25,4 @@ checkpoint03-flexbox/
 
 ## Links
 - **Repositório GitHub:** https://github.com/raullaguna2310/checkpoint03-flexbox
-- **GitHub Pages:** [https://SEU_USUARIO.github.io/checkpoint03-flexbox](https://SEU_USUARIO.github.io/checkpoint03-flexbox)
+- **GitHub Pages:** https://raullaguna2310.github.io/checkpoint03-flexbox/
