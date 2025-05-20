@@ -1,0 +1,91 @@
+/* Reset básico e box-sizing padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  /* Estilo geral do corpo */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+
+  /* Adicionando fonte no título da página*/
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  /* Adicionando fonte nas descrições dos títulos da página*/
+  .descricao-titulo {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  /* Adicionando fonte nos título dos cards*/
+  .titulo-card {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  /* Adicionando fonte nas descrições dos títulos dos cards*/
+  .descricao-card {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  /* Seção de destaque centralizada */
+  .destaque {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Container dos cards com Flexbox responsivo */
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilo de cada card */
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    border-radius: 5px;
+  }
+  
+  /* Efeito de transformação ao passar o mouse no card */
+  .card:hover {
+    transform: rotate(2deg) scale(1.05); /* Gira e aumenta levemente */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adiciona sombra */
+  }
+  
+  /* Imagem dentro dos cards */
+  .card img {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  /* Rodapé centralizado */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #800000;
+    color: white;
+  }
